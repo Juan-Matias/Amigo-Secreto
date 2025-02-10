@@ -1,3 +1,4 @@
+
 :root {
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
@@ -135,8 +136,9 @@ ul {
 }
 
 .result-list {
-    margin-top: 15px;
+    margin: 15px;
     color: #05DF05;
+    font-family: "Merriweather", serif;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +161,15 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Estilo para el borde rojo cuando hay un error */
+.input-error {
+    border: 2px solid red;
+    background-color: #f8d7da; /* Fondo rojo suave */
+}
+
+/* Estilo normal del input */
+.input-normal {
+    border: 1px solid #ccc;
 }
